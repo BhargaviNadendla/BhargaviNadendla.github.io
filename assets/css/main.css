@@ -72,6 +72,10 @@ ul li, ol li {
   list-style: none;
 }
 
+ul x{
+	list-style-type: circle;
+}
+
 .hero-heading {
   font-size: 48px;
   font-weight: 700;
@@ -407,6 +411,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-left: 2px solid #f1f1f1;
 }
 
+.timeline ul p {
+	list-style-type: circle;
+}
+
 .timeline li .content-text {
   background: #f2f2f2;
   padding: 20px;
@@ -417,6 +425,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 6px;
 }
 
+.timeline li .x{
+  font-size: 30px;
+}
+
 .timeline li span {
   font-size: 12px;
   padding: 9px 0;
@@ -425,7 +437,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li .line-text {
   color: #888;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 .timeline li:first-child:before {
